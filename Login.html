@@ -1,0 +1,31 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+  <title> Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</<head>
+<body>
+  <nav>
+    <ul>
+        <li><a href="aru.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Login.html">Login</a></li>
+    </ul>
+    <form class="search_form">
+      <input type="search" id="query" name="q" placeholder="Search...">
+      <button>Search</button>
+    </form>
+  </nav>
+  <div class="form">
+    <form class="login-Page" method="post" action="trylogin.php">
+      <input type="text" placeholder="User name" name="username" required/>
+      <input type="password" placeholder="Password" name="password" required/>
+      <input type="submit" value="Login">
+      <p class="message_text">Not a User? <a href="Register.html">Register</a>
+      </p>
+    </form>
+  </div>
+</body>
+</head>
+</html>
